@@ -6,7 +6,7 @@ publisher (string),
 price (int)
 ```
 
-이들 멤버들을 protected로 선언하여 외부로부터의 접근을 제한하시기 바라고, 아울러 이들에 대한 접근을 위해 set/get 함수를 인라인함수 형태로 추가하시기 바랍니다. 그리고, 이들 정보를 출력하는 showBookInfo() 함수를 만드시고 Book(string name, string author, string publisher, int price) 형태의 매개변수 생성자를 만드시기 바랍니다.
+이들 멤버들을 protected로 선언하여 외부로부터의 접근을 제한하시기 바라고, 아울러 이들에 대한 접근을 위해 set/get 함수를 인라인함수 형태로 추가하시기 바랍니다. 그리고, 이들 정보를 출력하는 <code>showBookInfo()</code> 함수를 만드시고 <code>Book(string name, string author, string publisher, int price)</code> 형태의 매개변수 생성자를 만드시기 바랍니다.
 아래의 테스트 프로그램이 성공적으로 수행되도록 해야 합니다.
 ```c
 int main(int argc, char* argv[])
@@ -22,11 +22,12 @@ int main(int argc, char* argv[])
 	cpp.showBookInfo();
 }
 ``` 
-	
+
 출력:
+```
 책명: 명품 JAVA 저자: 김철수 출판사: 생능출판사 가격: 30000
 책명: C++ 프로그래밍 저자: 박영희 출판사: 영진출판사 가격: 30000
-
+```
 =================================================================================
 2. Coffee 클래스를 만드시기 바랍니다. 클래스의 속성은 다음과 같습니다. 
 ```c
@@ -36,7 +37,7 @@ is_regular (bool), 		// regular size면 true, 아니면 fase
 price (int)			// 가격	
 ```
 
-이들 멤버들을 protected로 선언하여 외부로부터의 접근을 제한하시기 바라고, 아울러 이들에 대한 접근을 위해 set/get 함수를 인라인 형태로 추가하시기 바랍니다. 그리고, 이들 정보를 직접 입력받는 inputCoffeeInfo() 함수, 출력하는 showBookInfo() 함수를 만드시고 Coffee(string name, bool is_hot, bool is_regular, int price); 형태의 매개변수 생성자를 만드시기 바랍니다.
+이들 멤버들을 protected로 선언하여 외부로부터의 접근을 제한하시기 바라고, 아울러 이들에 대한 접근을 위해 set/get 함수를 인라인 형태로 추가하시기 바랍니다. 그리고, 이들 정보를 직접 입력받는 <code>inputCoffeeInfo()</code> 함수, 출력하는 <code>showBookInfo()</code> 함수를 만드시고 <code>Coffee(string name, bool is_hot, bool is_regular, int price);</code> 형태의 매개변수 생성자를 만드시기 바랍니다.
 
 아래의 테스트 프로그램이 성공적으로 수행되도록 해야 합니다.
 
